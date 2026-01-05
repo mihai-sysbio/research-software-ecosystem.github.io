@@ -7,6 +7,12 @@ title: Documentation
 ## Introduction
 The RSEc version-controlled repository federates metadata for research software, predominantly within the life sciences domain. These metadata cover a wide spectrum of use cases, spanning software discovery, evaluation, deployment, and execution. Centralised in an open and version-controlled repository, these metadata can be used to cross-link multiple services, to facilitate curation, and to provide insights on bioinformatics software through their aggregation and analysis. This page contains the information and links to access and understand the software metadata provided by the Research Software Ecosystem, as well as contribution guidelines and support channels.
 
+## Quick start
+- Browse metadata directly in the [RSEc content repository](https://github.com/research-software-ecosystem/content) (see `data` and `imports`).
+- Check the [imports workflow](https://github.com/research-software-ecosystem/content/tree/master/.github/workflows/import.yaml) to see when each source is refreshed.
+- Use the cross-links in the table below to jump between sources (e.g. bio.tools IDs, Bioconda packages, Galaxy tool IDs).
+- Open an issue in the [content repo issue tracker](https://github.com/research-software-ecosystem/content/issues) if you spot a metadata problem.
+
 ## Metadata Repository contents
 
 The RSEc metadata can be accessed on [the GitHub dedicated repository](https://github.com/research-software-ecosystem/content). The main folders to access metadata are: the `imports` folder, which contains one subfolder per metadata source, and the `data` folder, which contains one subfolder for each of the bio.tools entries, combining bio.tools tools and metadata files which are directly linked to it. An example of this organisation is illustrated in <a href="#metadata-files-organisation">Figure 1</a>. 
@@ -40,6 +46,12 @@ The RSEc metadata can be accessed on [the GitHub dedicated repository](https://g
    </div>
   </p>
 </details>
+
+## How to use the metadata
+- **Discover tools**: search `data/<tool-id>` folders to see aggregated metadata across registries.
+- **Validate metadata**: compare entries across sources (e.g. bio.tools vs OpenEBench) and file PRs to fix discrepancies.
+- **Integrate programmatically**: consume the raw JSON/YAML from the repository or mirror it to your own services.
+- **Automate updates**: use the weekly imports as a stable schedule for downstream synchronisation.
 
 ## Supported Formats
 
