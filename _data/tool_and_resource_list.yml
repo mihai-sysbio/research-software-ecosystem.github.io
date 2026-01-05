@@ -21,7 +21,7 @@
     and BioContainers.
   related_pages:
     - applications
-- id: galaxy_codex
+- id: galaxy
   name: Galaxy Codex
   url: https://github.com/galaxyproject/galaxy_codex
   description:
@@ -31,7 +31,7 @@
     - sources
 - id: bioconda
   name: Bioconda
-  url: https://bioconda.github.io/
+  url: https://bioconda.github.io
   description: 
     Bioconda is a bioinformatics channel for the Conda package manager
   registry:
@@ -60,7 +60,7 @@
     biotools: openebench
   related_pages:
     - sources
-- id: debianmed 
+- id: debian-med 
   name: Debian Med
   url: https://www.debian.org/devel/debian-med/index.en.html
   description:
